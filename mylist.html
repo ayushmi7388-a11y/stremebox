@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My List - StreamBox</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="app-page">
+    <header class="app-header">
+        <nav class="nav container">
+            <a class="brand" href="browse.html">StreamBox</a>
+            <div class="nav-actions">
+                <a class="nav-link" href="browse.html">Home</a>
+                <a class="nav-link active" href="mylist.html">My List</a>
+                <a class="nav-link" href="plans.html">Plans</a>
+                <a class="nav-link" href="account.html">Account</a>
+                <button class="btn btn-small" id="signOutBtn" type="button">Sign Out</button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container app-main">
+        <section class="section">
+            <h1>My List</h1>
+            <p class="muted">Titles you saved will appear here.</p>
+            <div class="catalog-grid" id="myListGrid"></div>
+            <p class="empty-state" id="emptyListMessage">Your list is empty. Go to Home and add titles.</p>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

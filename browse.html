@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browse - StreamBox</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="app-page">
+    <header class="app-header">
+        <nav class="nav container">
+            <a class="brand" href="browse.html">StreamBox</a>
+            <div class="nav-actions">
+                <a class="nav-link active" href="browse.html">Home</a>
+                <a class="nav-link" href="mylist.html">My List</a>
+                <a class="nav-link" href="plans.html">Plans</a>
+                <a class="nav-link" href="account.html">Account</a>
+                <button class="btn btn-small" id="signOutBtn" type="button">Sign Out</button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container app-main">
+        <section class="browse-hero">
+            <div>
+                <p class="hero-chip">Featured</p>
+                <h1>Weekend Binge Collection</h1>
+                <p class="muted">Handpicked movies and series for your next watch session.</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="search-row">
+                <h2>All Titles</h2>
+                <input id="searchInput" class="search-input" type="text" placeholder="Search movies or shows...">
+            </div>
+            <div class="catalog-grid" id="catalogGrid"></div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

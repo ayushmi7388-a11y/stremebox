@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account - StreamBox</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="app-page">
+    <header class="app-header">
+        <nav class="nav container">
+            <a class="brand" href="browse.html">StreamBox</a>
+            <div class="nav-actions">
+                <a class="nav-link" href="browse.html">Home</a>
+                <a class="nav-link" href="mylist.html">My List</a>
+                <a class="nav-link" href="plans.html">Plans</a>
+                <a class="nav-link active" href="account.html">Account</a>
+                <button class="btn btn-small" id="signOutBtn" type="button">Sign Out</button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container app-main">
+        <section class="section account-card">
+            <h1>Account Details</h1>
+            <p><strong>Email:</strong> <span id="accountEmail">Not signed in</span></p>
+            <p><strong>Current Plan:</strong> <span id="accountPlan">Not selected</span></p>
+            <p><strong>Status:</strong> Active</p>
+            <div class="account-actions">
+                <a class="btn btn-small" href="plans.html">Change Plan</a>
+                <a class="btn btn-small btn-outline" href="mylist.html">View My List</a>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

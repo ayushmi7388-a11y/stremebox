@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StreamBox - Unlimited Movies & Shows</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="landing">
+    <header class="hero">
+        <div class="hero-overlay"></div>
+        <nav class="nav container" id="mainNav">
+            <a class="brand" href="index.html">StreamBox</a>
+            <div class="nav-actions">
+                <a class="nav-link" href="plans.html">Plans</a>
+                <a class="btn btn-small" href="signin.html">Sign In</a>
+            </div>
+        </nav>
+
+        <div class="hero-content container">
+            <p class="hero-chip">#1 Streaming App</p>
+            <h1>Unlimited movies, TV shows and more</h1>
+            <p class="sub">Watch anywhere. Cancel anytime.</p>
+            <p class="sub muted">Ready to watch? Enter your email to create or restart your membership.</p>
+            <form class="email-form" id="emailForm" novalidate>
+                <input id="emailInput" type="email" placeholder="Email address">
+                <button class="btn" type="submit">Get Started ></button>
+            </form>
+            <p id="formMessage" class="form-message" aria-live="polite"></p>
+        </div>
+    </header>
+
+    <main>
+        <section class="section container">
+            <h2>Trending Now</h2>
+            <div class="slider-head">
+                <button class="icon-btn" id="trendPrev" type="button"><</button>
+                <button class="icon-btn" id="trendNext" type="button">></button>
+            </div>
+            <div class="card-row" id="trendingRow"></div>
+        </section>
+
+        <section class="section container grid-four">
+            <article class="panel">
+                <h3>Enjoy on your TV</h3>
+                <p>Smart TVs, PlayStation, Xbox, Chromecast, Apple TV and more.</p>
+            </article>
+            <article class="panel">
+                <h3>Download your shows</h3>
+                <p>Save your favourites and always have something to watch offline.</p>
+            </article>
+            <article class="panel">
+                <h3>Watch everywhere</h3>
+                <p>Phone, tablet, laptop and TV. Your account travels with you.</p>
+            </article>
+            <article class="panel">
+                <h3>Kids profiles</h3>
+                <p>Safe and fun profiles for kids with parental controls.</p>
+            </article>
+        </section>
+
+        <section class="section container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-list" id="faqList"></div>
+        </section>
+    </main>
+
+    <footer class="footer container">
+        <p>Questions? Call 000-800-919-1694</p>
+        <div class="footer-links" id="footerLinks"></div>
+        <p class="muted">StreamBox India</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

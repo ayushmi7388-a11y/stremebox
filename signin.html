@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In - StreamBox</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="auth-page">
+    <main class="auth-wrap">
+        <a class="brand auth-brand" href="index.html">StreamBox</a>
+        <section class="auth-card">
+            <h1>Sign In</h1>
+            <form id="signInForm" class="auth-form" novalidate>
+                <input id="signInEmail" type="email" placeholder="Email address">
+                <input id="signInPassword" type="password" placeholder="Password">
+                <button class="btn" type="submit">Sign In</button>
+                <p class="form-message" id="signInMessage" aria-live="polite"></p>
+            </form>
+            <p class="muted">New to StreamBox? <a href="plans.html">Choose a plan</a></p>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
